@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 
 import Nav from '../components/nav/nav'
-import styles from '../styles/Home.module.scss'
+import styles from '../styles/home.module.scss'
 
 export default function Home() {
   return (
@@ -28,7 +28,6 @@ export default function Home() {
           property='og:description'
           content='Andres Alcocer - React frontend developer'
         />
-
         <meta
           name='viewport'
           content='width=device-width, initial-scale=1.0'
