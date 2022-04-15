@@ -2,6 +2,8 @@ import Head from 'next/head'
 
 import Nav from '../components/nav/nav'
 import About from '../components/about/about'
+import Projects from '../components/projects/projects'
+import Skills from '../components/skills/skills'
 
 export default function Home() {
   return (
@@ -35,9 +37,8 @@ export default function Home() {
       <Nav />
       <main>
         <About />
-        <section></section>
-        <section></section>
-        <section style={{ height: '300vh' }}></section>
+        <Projects />
+        <Skills />
       </main>
     </>
   )
