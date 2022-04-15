@@ -1,4 +1,6 @@
 .container {
   height: calc(100vh - 85px);
-  background-color: green;
+  padding: 0 10rem;
+  background: rgba(255, 255, 255, 0)
+    linear-gradient(to top, rgb(0, 0, 0) 60%, $secondaryColor 100%) repeat;
 }

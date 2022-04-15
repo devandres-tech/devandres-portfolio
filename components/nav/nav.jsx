@@ -9,10 +9,18 @@ export default function Nav() {
     <nav>
       <div className={styles.container}>
         <div className={styles.leftContent}>
-          <Link spy={true} smooth={true} duration={animDuration} to='about'>
+          <Link
+            offset={-85}
+            activeClass={styles.active}
+            spy={true}
+            smooth={true}
+            duration={animDuration}
+            to='about'
+          >
             {'<About>'}
           </Link>
           <Link
+            activeClass={styles.active}
             offset={-85}
             spy={true}
             smooth={true}
@@ -21,7 +29,14 @@ export default function Nav() {
           >
             {'<Projects>'}
           </Link>
-          <Link spy={true} smooth={true} duration={animDuration} to='skills'>
+          <Link
+            activeClass={styles.active}
+            offset={-85}
+            spy={true}
+            smooth={true}
+            duration={animDuration}
+            to='skills'
+          >
             {'<Skills>'}
           </Link>
         </div>

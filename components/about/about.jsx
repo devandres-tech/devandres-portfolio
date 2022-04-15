@@ -7,7 +7,11 @@ export default function About() {
   return (
     <section id='about' className={styles.container}>
       <div style={{ marginRight: '7rem' }}>
-        <AnimationOnScroll animatePreScroll animateIn='animate__fadeInUp'>
+        <AnimationOnScroll
+          animatePreScroll
+          animateIn='animate__fadeInUp'
+          animateOut='animate__fadeOut'
+        >
           <p className='code-tag'>{'<developer>'}</p>
           <h1>
             Andres <br /> Alcocer
