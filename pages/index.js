@@ -1,9 +1,7 @@
 import Head from 'next/head'
-import Image from 'next/image'
 
 import Nav from '../components/nav/nav'
 import About from '../components/about/about'
-import styles from '../styles/home.module.scss'
 
 export default function Home() {
   return (
