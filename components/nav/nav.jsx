@@ -8,9 +8,9 @@ export default function Nav() {
     <nav>
       <div className={styles.container}>
         <div className={styles.leftContent}>
-          <Link>{'<Home>'}</Link>
+          <Link>{'<About>'}</Link>
           <Link>{'<Projects>'}</Link>
-          <Link>{'<skills>'}</Link>
+          <Link>{'<Skills>'}</Link>
         </div>
         <div className={styles.rightContent}>
           <a href='https://github.com/devandres-tech'>

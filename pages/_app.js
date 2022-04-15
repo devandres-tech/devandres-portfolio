@@ -1,5 +1,6 @@
 import Script from 'next/script'
 
+import 'animate.css/animate.min.css'
 import '../styles/globals.scss'
 
 function MyApp({ Component, pageProps }) {

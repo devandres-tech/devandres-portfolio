@@ -7,13 +7,16 @@
 
 .leftContent {
   & > * {
-    margin-right: 1rem;
+    margin-right: 1.5rem;
+    &:hover {
+      cursor: pointer;
+    }
   }
 }
 
 .rightContent {
   & > * {
-    margin-left: 1rem;
+    margin-left: 1.5rem;
     font-size: 20px;
   }
 }

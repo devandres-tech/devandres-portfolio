@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 
 import Nav from '../components/nav/nav'
+import About from '../components/about/about'
 import styles from '../styles/home.module.scss'
 
 export default function Home() {
@@ -35,7 +36,10 @@ export default function Home() {
       </Head>
       <Nav />
       <main>
+        <About />
         <section></section>
+        <section></section>
+        <section style={{ height: '300vh' }}></section>
       </main>
     </>
   )
