@@ -10,16 +10,15 @@
   flex: 1;
   z-index: 1000;
   // background-color: $dark;
-  background-color: transparent;
-  color: rgb(160, 160, 160);
 }
 
 .leftContent {
   & > * {
     margin-right: 1.5rem;
     transition: all 0.4s;
+    color: rgb(170, 170, 170);
     &:hover {
-      color: #fff;
+      // color: #fff;
       transition: all 0.4s;
       cursor: pointer;
     }

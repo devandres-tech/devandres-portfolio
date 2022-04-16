@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import { AnimationOnScroll } from 'react-animation-on-scroll'
 
 import styles from './about.module.scss'
