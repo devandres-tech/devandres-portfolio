@@ -24,10 +24,19 @@ export default function About() {
         <AnimationOnScroll animatePreScroll animateIn='animate__fadeInUp'>
           <p className='code-tag'>{'<about me>'}</p>
           <p style={{ lineHeight: '1.2' }}>
-            I am a frontend developer primarily experienced with React. I enjoy
-            the craft of building intuitive, dynamic, and responsive user
-            interfaces. I strive to provide the best possible user experience by
-            creating beautiful UI components.
+            Hi there! I am Andres Alcocer. I am a passionate introverted
+            frontend developer who enjoys crafting delightful user experiences
+            for the web. I pay close attention to details such as animations, ux
+            flow, and design layout to build a coherent and functional frontend
+            web experience.
+            <br />
+            <br />
+            Ever since I wrote my first line of code back in College I knew I
+            wanted to become a software developer. With code I can turn an idea
+            into something tangible and I think that is powerful in itself. Not
+            only can I materialize ideas but I can also solve real world
+            problems and make the world a better place. I’ve always been
+            fascinated by how code can transform the world we live in.
           </p>
           <p className='code-tag' style={{ textAlign: 'right' }}>
             {'</about me>'}
