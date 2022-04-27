@@ -26,9 +26,10 @@ export default function About() {
           <p style={{ lineHeight: '1.2' }}>
             Hi there! I am Andres Alcocer. I am a passionate introverted
             frontend developer who enjoys crafting delightful user experiences
-            for the web. I pay close attention to details such as animations, ux
-            flow, and design layout to build a coherent and functional frontend
-            web experience.
+            for the web. Every now and then I like to clone the frontend of my
+            favorite web/mobile applications. I pay close attention to details
+            such as animations, ux flow, and design layout to build a coherent
+            and functional frontend web experience.
             <br />
             <br />
             Ever since I wrote my first line of code back in College I knew I
